@@ -1,0 +1,3 @@
+# Netlify redirects
+# Redirect /note/[noteId] to /note?id=[noteId]
+/note/:noteId  /note?id=:noteId  302

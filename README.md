@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CollabNotes Website
 
-## Getting Started
+A modern, animated showcase website for CollabNotes - a feature-rich note-taking mobile application.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Design**: Sleek, techy design with glassmorphism effects
+- **Smooth Animations**: Powered by Framer Motion for fluid interactions
+- **Static Export**: Fully static site for fast loading and easy deployment
+- **Responsive**: Works perfectly on all devices
+- **External Icons**: Using Tabler Icons for modern, consistent iconography
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 with React 19
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: Tabler Icons & Lucide React
+- **TypeScript**: Full type safety
+
+## 📦 Installation
+
+```bash
+npm install
+```
+
+## 🏃 Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build the static site:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+This will generate a static export in the `out` directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/
+│   ├── layout.tsx       # Root layout
+│   ├── page.tsx         # Home page
+│   └── globals.css      # Global styles
+├── components/
+│   ├── Navbar.tsx       # Navigation bar
+│   ├── Hero.tsx         # Hero section
+│   ├── Features.tsx     # Features showcase
+│   ├── HowItWorks.tsx   # Step-by-step guide
+│   ├── Showcase.tsx     # Feature highlights
+│   ├── Download.tsx     # Download CTA
+│   └── Footer.tsx       # Footer
+└── public/              # Static assets
+```
 
-## Deploy on Vercel
+## 🎨 Design System
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Colors
+- Primary: `#6366f1` (Indigo)
+- Secondary: `#8b5cf6` (Purple)
+- Accent: `#ec4899` (Pink)
+- Background: `#0a0a0a` (Dark)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Components
+- Glassmorphism cards
+- Gradient backgrounds
+- Smooth hover effects
+- Animated sections
+
+## 🚀 Deployment
+
+The site is configured for static export and can be deployed to:
+- Vercel
+- Netlify
+- GitHub Pages
+- Any static hosting service
+
+Simply run `npm run build` and deploy the `out` directory.
+
+## 📄 License
+
+Copyright © 2024 CollabNotes. All rights reserved.
