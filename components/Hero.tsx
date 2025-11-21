@@ -75,10 +75,19 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <motion.a
-            href="#download"
+            href="/login"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center space-x-2 px-8 py-4 gradient-bg rounded-full text-white font-medium glow"
+          >
+            <IconCloud size={24} />
+            <span>Try Web App</span>
+          </motion.a>
+          <motion.a
+            href="#download"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="flex items-center space-x-2 px-8 py-4 glass rounded-full text-white font-medium"
           >
             <IconBrandGooglePlay size={24} />
             <span>Download on Google Play</span>
